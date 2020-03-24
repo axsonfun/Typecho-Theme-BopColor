@@ -1,7 +1,7 @@
 <?php $this->need('head.php'); ?>
 <?php $this->need('header.php'); ?>
 <body>
-<link rel="stylesheet" href="<?php $this->options->themeUrl('css/kico.css'); ?>"><script src="<?php $this->options->themeUrl('js/kico.js'); ?>"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Kico-Style/kico.min.css"><script src="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Kico-Style/kico.min.js"></script>
 <br>
 <br>
 <div class="mdui-container">
@@ -24,6 +24,5 @@
 <?php thePrev($this); ?>&nbsp;
 <?php theNext($this); ?>
 </div>
-<script>ks.image("img")</script>
 </body>
 <?php $this->need('footer.php'); ?>
